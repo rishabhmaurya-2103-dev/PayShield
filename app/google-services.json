@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "887719447227",
+    "project_id": "payshield-8a0ad",
+    "storage_bucket": "payshield-8a0ad.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887719447227:android:56c9d5fdd74852e28db79e",
+        "android_client_info": {
+          "package_name": "com.example.payshield"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlvbC2q4DMH-GPsfZWtmd87uf2apjeziQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

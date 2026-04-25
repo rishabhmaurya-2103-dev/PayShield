@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@android:color/white"
+    android:elevation="16dp">
+
+    <TextView
+        android:id="@+id/tvOverlayTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚠ HIGH RISK PAYMENT"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#D32F2F"
+        android:gravity="center" />
+
+    <View
+        android:layout_width="48dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:background="#1F6FEB" />
+
+    <TextView
+        android:id="@+id/tvOverlayScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Risk Score: 0 | Level: LOW"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#111111"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#F3F6FA" />
+
+    <TextView
+        android:id="@+id/tvOverlayMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="UPI ID: sample@upi&#10;Amount: Rs 0&#10;&#10;Reported by 0 user(s)&#10;&#10;Reasons:&#10;• No major warning signs found"
+        android:textSize="14sp"
+        android:textColor="#333333"
+        android:lineSpacingExtra="4dp"
+        android:padding="12dp"
+        android:background="#FAFAFA" />
+
+    <Button
+        android:id="@+id/btnReportFraud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:text="Report Fraud"
+        android:textStyle="bold"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnCloseOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp"
+        android:text="Close"
+        android:textStyle="bold"
+        android:backgroundTint="#666666"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
